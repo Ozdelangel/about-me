@@ -33,6 +33,11 @@ if (questionTwo === 'no' || questionTwo === 'n'){
 }else{
     alert('please answer yes or no')
 }
+}
+questionThree();
+
+
+function questionFour(){
 let questionThree = prompt('Did I work in construction?').toLowerCase();
 //console.log('user entered question 3 ' + questionThree);
 if (questionThree === 'yes' || questionThree === 'y'){
@@ -43,9 +48,10 @@ alert('wrong answer');
     alert('please answer yes or no')
 }
 }
-questionThree();
+questionFour();
 
-function questionFour(){
+
+function questionFive(){
 let questionFour = prompt('Do I got to Code Fellows?').toLowerCase();
 //console.log('User entered question four ' + questionFour);
 if (questionFour === 'yes' || questionFour === 'y'){
@@ -56,7 +62,7 @@ if (questionFour === 'yes' || questionFour === 'y'){
     alert('please answer yes or no')
 }
 }
-questionFour();
+questionFive();
 
 
 //user, I would like to be guided to an answer through a series of feedback responses so that I can learn more about the site owner.
@@ -64,6 +70,7 @@ questionFour();
 //Indicates through an alert if the guess is “too high” or “too low”.
 //It should give the user exactly four opportunities to get the correct answer.
 //After all attempts have been exhausted, tell the user the correct answer. Consider using a loop of some sort.
+
 
 let correctAnswer = 10;
 console.log(correctAnswer)
