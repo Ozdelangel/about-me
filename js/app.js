@@ -8,17 +8,19 @@ function nameQuestion(){
 }
 nameQuestion();
 
-
-let questionOne = prompt('Do I Have a Wife and daughter Answer yes or no').toLowerCase();
-//console.log('user entered to question 1 ' + questionOne);
-if (questionOne === 'yes' || questionOne === 'y'){
-    alert('yes, I love them very much! ');
+function questionTwo(){
+    let questionOne = prompt('Do I Have a Wife and daughter Answer yes or no').toLowerCase();
+    //console.log('user entered to question 1 ' + questionOne);
+    if (questionOne === 'yes' || questionOne === 'y'){
+        alert('yes, I love them very much! ');
+    }
+    else if (questionOne === 'no' || questionOne === 'n'){
+        alert('Sorry, wrong answer');
+    }else{
+        alert('please answer yes or no')
+    }
 }
-else if (questionOne === 'no' || questionOne === 'n'){
-    alert('Sorry, wrong answer');
-}else{
-    alert('please answer yes or no')
-}
+questionTwo();
 
 let questionTwo = prompt('Did I go to college?').toLowerCase();
 //console.log('user entered question 2 ' + questionTwo);
