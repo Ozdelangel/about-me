@@ -71,7 +71,7 @@ questionFive();
 //It should give the user exactly four opportunities to get the correct answer.
 //After all attempts have been exhausted, tell the user the correct answer. Consider using a loop of some sort.
 
-
+function questionSix(){
 let correctAnswer = 10;
 console.log(correctAnswer)
 let userAttempts = 4;
@@ -96,6 +96,8 @@ let userAttempts = 4;
             alert('you did not win. correct answer is ' + correctAnswer);
         }
     }
+}
+questionSix();
 
 //     As a user, I would like to guess the answer to a question that could have many possibilities so that I can have fun with with a guessing game.
 // Add a 7th question that has multiple possible correct answers that are stored in an array.
