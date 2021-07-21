@@ -1,20 +1,29 @@
 'use strict';
-let userName = prompt('Hi, whats your name?');
-//console.log (userName);
 
-alert('Hello ' + userName);
+function nameQuestion(){
+  let userName = prompt('Hi, whats your name?');
+  //console.log (userName);
 
-let questionOne = prompt('Do I Have a Wife and daughter Answer yes or no').toLowerCase();
-//console.log('user entered to question 1 ' + questionOne);
-if (questionOne === 'yes' || questionOne === 'y'){
-    alert('yes, I love them very much! ');
+  alert('Hello ' + userName);
 }
-else if (questionOne === 'no' || questionOne === 'n'){
-    alert('Sorry, wrong answer');
-}else{
-    alert('please answer yes or no')
-}
+nameQuestion();
 
+function questionTwo(){
+    let questionOne = prompt('Do I Have a Wife and daughter Answer yes or no').toLowerCase();
+    //console.log('user entered to question 1 ' + questionOne);
+    if (questionOne === 'yes' || questionOne === 'y'){
+        alert('yes, I love them very much! ');
+    }
+    else if (questionOne === 'no' || questionOne === 'n'){
+        alert('Sorry, wrong answer');
+    }else{
+        alert('please answer yes or no')
+    }
+}
+questionTwo();
+
+
+function questionThree(){
 let questionTwo = prompt('Did I go to college?').toLowerCase();
 //console.log('user entered question 2 ' + questionTwo);
 if (questionTwo === 'no' || questionTwo === 'n'){
@@ -24,6 +33,11 @@ if (questionTwo === 'no' || questionTwo === 'n'){
 }else{
     alert('please answer yes or no')
 }
+}
+questionThree();
+
+
+function questionFour(){
 let questionThree = prompt('Did I work in construction?').toLowerCase();
 //console.log('user entered question 3 ' + questionThree);
 if (questionThree === 'yes' || questionThree === 'y'){
@@ -33,7 +47,11 @@ alert('wrong answer');
 }else{
     alert('please answer yes or no')
 }
+}
+questionFour();
 
+
+function questionFive(){
 let questionFour = prompt('Do I got to Code Fellows?').toLowerCase();
 //console.log('User entered question four ' + questionFour);
 if (questionFour === 'yes' || questionFour === 'y'){
@@ -43,7 +61,8 @@ if (questionFour === 'yes' || questionFour === 'y'){
 }else{
     alert('please answer yes or no')
 }
-
+}
+questionFive();
 
 
 //user, I would like to be guided to an answer through a series of feedback responses so that I can learn more about the site owner.
@@ -52,6 +71,7 @@ if (questionFour === 'yes' || questionFour === 'y'){
 //It should give the user exactly four opportunities to get the correct answer.
 //After all attempts have been exhausted, tell the user the correct answer. Consider using a loop of some sort.
 
+function questionSix(){
 let correctAnswer = 10;
 console.log(correctAnswer)
 let userAttempts = 4;
@@ -76,6 +96,8 @@ let userAttempts = 4;
             alert('you did not win. correct answer is ' + correctAnswer);
         }
     }
+}
+questionSix();
 
 //     As a user, I would like to guess the answer to a question that could have many possibilities so that I can have fun with with a guessing game.
 // Add a 7th question that has multiple possible correct answers that are stored in an array.
