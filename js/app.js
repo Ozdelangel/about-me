@@ -22,6 +22,8 @@ function questionTwo(){
 }
 questionTwo();
 
+
+function questionThree(){
 let questionTwo = prompt('Did I go to college?').toLowerCase();
 //console.log('user entered question 2 ' + questionTwo);
 if (questionTwo === 'no' || questionTwo === 'n'){
@@ -40,6 +42,8 @@ alert('wrong answer');
 }else{
     alert('please answer yes or no')
 }
+}
+questionThree();
 
 let questionFour = prompt('Do I got to Code Fellows?').toLowerCase();
 //console.log('User entered question four ' + questionFour);
