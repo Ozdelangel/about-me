@@ -45,6 +45,7 @@ alert('wrong answer');
 }
 questionThree();
 
+function questionFour(){
 let questionFour = prompt('Do I got to Code Fellows?').toLowerCase();
 //console.log('User entered question four ' + questionFour);
 if (questionFour === 'yes' || questionFour === 'y'){
@@ -54,7 +55,8 @@ if (questionFour === 'yes' || questionFour === 'y'){
 }else{
     alert('please answer yes or no')
 }
-
+}
+questionFour();
 
 
 //user, I would like to be guided to an answer through a series of feedback responses so that I can learn more about the site owner.
