@@ -1,8 +1,13 @@
 'use strict';
-let userName = prompt('Hi, whats your name?');
-//console.log (userName);
 
-alert('Hello ' + userName);
+function nameQuestion(){
+  let userName = prompt('Hi, whats your name?');
+  //console.log (userName);
+
+  alert('Hello ' + userName);
+}
+nameQuestion();
+
 
 let questionOne = prompt('Do I Have a Wife and daughter Answer yes or no').toLowerCase();
 //console.log('user entered to question 1 ' + questionOne);
